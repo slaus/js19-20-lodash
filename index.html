@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework Javascript 19-20</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,500" rel="stylesheet">
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery.jcarousel.js"></script>
+  <script src="js/lodash.js"></script>
+  <script src='js/script.js'></script>
+</head>
+<body>
+  <div class="header">
+    <div class="wrapper">
+      <div class="logo">
+        <div class="logo__img"><a href="#"><img src="img/logo.png"></a></div>
+        <div class="logo__name"><span>Build Home</span>Industrial Theme</div>
+      </div>
+      <nav class="social">
+        <ul class="icon">
+          <li class="icon__item"><a href="#" class="icon__link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="icon__item"><a href="#" class="icon__link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="icon__item"><a href="#" class="icon__link"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+          <li class="icon__item"><a href="#" class="icon__link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="icon__item"><a href="#" class="icon__link"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+        </ul>
+      </nav>
+      <div class="header-menu">
+        <nav class="horizontal-menu">
+          <ul class="menu">
+            <li class="menu__item"><a href="#" class="menu__link menu__link--active">Home</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Features</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">News</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Shop</a></li>
+          </ul>
+        </nav>
+        <div class="search">
+          <form id="myForm" action="" method="post">
+            <input type="text" name="search" placeholder="Search..." class="search__input"><span class="search__icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+          </form>
+        </div>
+      </div>
+      <div class="jcarousel">
+        <ul class="jcarousel__slider">
+          <li class="jcarousel__item"><img src="img/slide_01.jpg"></li>
+          <li class="jcarousel__item"><img src="img/slide_02.jpg"></li>
+          <li class="jcarousel__item"><img src="img/slide_03.jpg"></li>
+        </ul>
+        <div class="jcarousel_pagination"></div>
+        <div class="jcarousel__title">
+          <span>Build</span><br>Your<br>Business
+        </div>
+      </div>
+      <div class="info">
+        <div class="info__number">01</div>
+        <div class="info__icon"><img src="img/icon1.png"></div>
+        <div class="info__title">Power Inside</div>
+        <div class="info__text">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</div>
+        <div class="info__more"><a href="#" class="info__more--link">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+      </div>
+      <div class="info">
+        <div class="info__number">02</div>
+        <div class="info__icon"><img src="img/icon2.png"></div>
+        <div class="info__title">New Technologies</div>
+        <div class="info__text">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</div>
+        <div class="info__more"><a href="#" class="info__more--link">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+      </div>
+      <div class="info">
+        <div class="info__number">03</div>
+        <div class="info__icon"><img src="img/icon3.png"></div>
+        <div class="info__title">Fast Support</div>
+        <div class="info__text">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</div>
+        <div class="info__more"><a href="#" class="info__more--link">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="wrapper">
+      <h1 class="gallery__title">Our Services</h1>
+      <div class="photo">
+        <div class="picture"><a href="#" class="picture__link"><img src="img/img1.png" alt="" class="picture__img"><span class="picture__title">Schedule Services</span></a></div>
+      </div>
+      <div class="photo">
+        <div class="picture"><a href="#" class="picture__link"><img src="img/img2.png" alt="" class="picture__img"><span class="picture__title">Preventive Maintence</span></a></div>
+      </div>
+      <div class="photo">
+        <div class="picture"><a href="#" class="picture__link"><img src="img/img3.png" alt="" class="picture__img"><span class="picture__title">Tire & Wheel Services</span></a></div>
+      </div>
+      <div class="photo">
+        <div class="picture"><a href="#" class="picture__link"><img src="img/img4.png" alt="" class="picture__img"><span class="picture__title">Repair Services</span></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="news">
+    <div class="wrapper">
+      <div class="block-news">
+        <h2>Latest News</h2>
+        <div class="latest-news">
+        <div class="block-news__img"><img src="img/news1.png">
+            <div class="block-news__month">Jan</div>
+            <div class="block-news__date">23</div>
+          </div>
+          <div class="block-news__info">
+            <div class="block-news__title"><h3 class="block-news__h3"><a href="#" class="block-news__link">Advanced Machinery Helps Improve Quality</a></h3></div>
+            <div class="block-news__comment">by <a href="#">cmsmasters</a> Comments (<a href="#">6</a>)</div>
+            <div class="block-news__text">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem</div>
+          </div>
+        </div>
+        <div class="latest-news">
+        <div class="block-news__img"><img src="img/news2.png">
+            <div class="block-news__month">Jan</div>
+            <div class="block-news__date">21</div>
+          </div>
+          <div class="block-news__info">
+            <div class="block-news__title"><h3 class="block-news__h3"><a href="#" class="block-news__link">Powerful Techniques for Advanced Service</a></h3></div>
+            <div class="block-news__comment">by <a href="#">cmsmasters</a> Comments (<a href="#">3</a>)</div>
+            <div class="block-news__text">Cum sociis natoque penatibus et magnis dis parturient ontesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur samomo enim ipsam voluptatem</div>
+          </div>
+        </div>
+      </div>
+      <div class="block-news">
+        <h2>Banners Place</h2>
+        <div id="accordion" class="panel">
+          <h3 class="panel__title panel__title--active"><span></span><a href="" class="panel__link">Accordion panel 1</a></h3>
+          <div class="panel__text panel__text--active">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</div>
+          <h3 class="panel__title"><span></span><a href="" class="panel__link">Accordion panel 2</a></h3>
+          <div class="panel__text">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</div>
+          <h3 class="panel__title"><span></span><a href="" class="panel__link">Accordion panel 3</a></h3>
+          <div class="panel__text">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</div>
+          <h3 class="panel__title"><span></span><a href="" class="panel__link">Accordion panel 4</a></h3>
+          <div class="panel__text">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</div>
+        </div>
+      </div>
+      <div class="parthner">
+        <a href="#" class="parthner__link"><img src="img/logo_1.jpg" class="parthner__img"></a>
+        <a href="#" class="parthner__link"><img src="img/logo_2.jpg" class="parthner__img"></a>
+        <a href="#" class="parthner__link"><img src="img/logo_3.jpg" class="parthner__img"></a>
+        <a href="#" class="parthner__link"><img src="img/logo_4.jpg" class="parthner__img"></a>
+        <a href="#" class="parthner__link"><img src="img/logo_5.jpg" class="parthner__img"></a>
+        <a href="#" class="parthner__link"><img src="img/logo_6.jpg" class="parthner__img"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-menu">
+      <div class="wrapper">
+        <nav class="block-menu">
+          <div class="block-bottom-menu">
+            <h3>Social</h3>
+            <ul class="bottom-menu">
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Facebook</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Flickr</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Twitter</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Vimeo</a></li>
+            </ul>
+          </div>
+          <div class="block-bottom-menu">
+            <h3>Links</h3>
+            <ul class="bottom-menu">
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">How to Write a Blog</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Create a Blog in 4 Steps</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">15 Tips to Increas</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">20 Blog Post Ideas</a></li>
+            </ul>
+          </div>
+          <div class="block-bottom-menu">
+            <h3>Blogroll</h3>
+            <ul class="bottom-menu">
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Blogs Blog</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Roll Up Roll Up</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Blog Free</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Wordpress Blog</a></li>
+            </ul>
+          </div>
+          <div class="block-bottom-menu">
+            <h3>About us</h3>
+            <ul class="bottom-menu">
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Agriculture</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Harvest</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Company news</a></li>
+              <li class="bottom-menu__item"><a href="#" class="bottom-menu__link">Investor relations</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-info">
+        <div class="wrapper">
+          <ul class="footer-info-menu">  
+            <li class="footer-info__item"><span class="location"></span>BuildHomeLtd. Street Name 123 23 45 Cityname</li>
+            <li class="footer-info__item"><span class="mobile"></span>+123 900 123 456</li>
+            <li class="footer-info__item"><span class="mail"></span>info@buildhome.web</li>
+            <li class="footer-info__item copyright">© 2014 Build Home</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</ul>
+</body>
+</html>
